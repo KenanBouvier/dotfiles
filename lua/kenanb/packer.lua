@@ -6,7 +6,9 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
+    -- Colorscheme
     use 'folke/tokyonight.nvim'
+    use 'morhetz/gruvbox'
     use 'tpope/vim-commentary'
     use 'vim-airline/vim-airline'
     use 'ap/vim-css-color'
