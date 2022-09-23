@@ -16,8 +16,12 @@ return require('packer').startup(function(use)
         'nvim-treesitter/nvim-treesitter',
         run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
     }
+
     use "ryanoasis/vim-devicons"
     use 'kyazdani42/nvim-web-devicons'    
+
+    -- Primeagen vim be good
+    use 'ThePrimeagen/vim-be-good'
     
 
 end)

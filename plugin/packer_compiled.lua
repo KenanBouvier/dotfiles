@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
+  },
   ["vim-commentary"] = {
     loaded = true,
     path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-commentary",
@@ -113,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-css-color",
     url = "https://github.com/ap/vim-css-color"
+  },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
   },
   ["vim-multiple-cursors"] = {
     loaded = true,

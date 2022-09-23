@@ -1,6 +1,9 @@
 local nnoremap = require("kenanb.keymap").nnoremap
 
-nnoremap("<leader>pv","<cmd>Ex<CR>")
+--nnoremap("<leader>pv","<cmd>Ex<CR>")
+nnoremap("<leader>pv","<C-w>v<bar> :Ex<CR>")
+-- nnoremap("<leader>pv","<C-w>v <bar> :Ex <bar> :vertical resize 30 <CR>")
+
 nnoremap("<leader>e","<cmd>NvimTreeToggle<CR>")
 
 nnoremap("<C-h>","<C-w>h")
