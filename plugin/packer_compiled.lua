@@ -79,10 +79,20 @@ _G.packer_plugins = {
     path = "/home/kenan/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
-  ["nvim-treesitter"] = {
+  fzf = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/fzf",
+    url = "https://github.com/junegunn/fzf"
+  },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -124,10 +134,25 @@ _G.packer_plugins = {
     path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
   },
+  ["vim-javascript"] = {
+    loaded = true,
+    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-javascript",
+    url = "https://github.com/pangloss/vim-javascript"
+  },
+  ["vim-jsx"] = {
+    loaded = true,
+    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-jsx",
+    url = "https://github.com/mxw/vim-jsx"
+  },
   ["vim-multiple-cursors"] = {
     loaded = true,
     path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-multiple-cursors",
     url = "https://github.com/terryma/vim-multiple-cursors"
+  },
+  ["yajs.vim"] = {
+    loaded = true,
+    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/yajs.vim",
+    url = "https://github.com/othree/yajs.vim"
   }
 }
 

@@ -14,10 +14,10 @@ return require('packer').startup(function(use)
     use 'ap/vim-css-color'
     use {'neoclide/coc.nvim', branch = 'release'}
     use 'terryma/vim-multiple-cursors'
-    use {
-        'nvim-treesitter/nvim-treesitter',
-        run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
-    }
+    -- syntax highlighting react/jsx
+    use 'othree/yajs.vim'
+    use 'pangloss/vim-javascript'
+    use 'mxw/vim-jsx'
     -- fzf
 	use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
 	use {'junegunn/fzf.vim'}
