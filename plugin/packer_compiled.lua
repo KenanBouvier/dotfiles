@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/kenan/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/kenan/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/kenan/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/kenan/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/kenan/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "C:\\Users\\Kenan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\Kenan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\Kenan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\Kenan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\Kenan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -74,84 +74,89 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\auto-pairs",
+    url = "https://github.com/jiangmiao/auto-pairs"
+  },
   ["coc.nvim"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
   fzf = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/fzf",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf",
     url = "https://github.com/junegunn/fzf"
   },
   ["fzf.vim"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
   },
   gruvbox = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/gruvbox",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-airline"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-airline",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
   ["vim-be-good"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
   },
   ["vim-commentary"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
   },
   ["vim-css-color"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-css-color",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-css-color",
     url = "https://github.com/ap/vim-css-color"
   },
   ["vim-devicons"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
   },
   ["vim-javascript"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-javascript",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-javascript",
     url = "https://github.com/pangloss/vim-javascript"
   },
   ["vim-jsx"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-jsx",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-jsx",
     url = "https://github.com/mxw/vim-jsx"
   },
   ["vim-multiple-cursors"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/vim-multiple-cursors",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-multiple-cursors",
     url = "https://github.com/terryma/vim-multiple-cursors"
   },
   ["yajs.vim"] = {
     loaded = true,
-    path = "/home/kenan/.local/share/nvim/site/pack/packer/start/yajs.vim",
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\yajs.vim",
     url = "https://github.com/othree/yajs.vim"
   }
 }

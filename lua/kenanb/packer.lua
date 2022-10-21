@@ -14,6 +14,7 @@ return require('packer').startup(function(use)
     use 'ap/vim-css-color'
     use {'neoclide/coc.nvim', branch = 'release'}
     use 'terryma/vim-multiple-cursors'
+    use 'jiangmiao/auto-pairs'
     -- syntax highlighting react/jsx
     use 'othree/yajs.vim'
     use 'pangloss/vim-javascript'
