@@ -20,14 +20,11 @@ return require('packer').startup(function(use)
     use 'pangloss/vim-javascript'
     use 'mxw/vim-jsx'
     -- fzf
-	use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
-	use {'junegunn/fzf.vim'}
+    use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
+    use {'junegunn/fzf.vim'}
 
     use "ryanoasis/vim-devicons"
     use 'kyazdani42/nvim-web-devicons'    
-
-    -- Primeagen vim be good
-    use 'ThePrimeagen/vim-be-good'
     
 
 end)

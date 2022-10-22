@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
-  ["vim-be-good"] = {
-    loaded = true,
-    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-be-good",
-    url = "https://github.com/ThePrimeagen/vim-be-good"
-  },
   ["vim-commentary"] = {
     loaded = true,
     path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-commentary",

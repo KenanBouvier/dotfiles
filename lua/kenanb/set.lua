@@ -15,4 +15,6 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = true;
 
+vim.o.scrolloff = 5;
+
 vim.g.mapleader = " "
