@@ -15,16 +15,13 @@ return require('packer').startup(function(use)
     use {'neoclide/coc.nvim', branch = 'release'}
     use 'terryma/vim-multiple-cursors'
     use 'jiangmiao/auto-pairs'
-    -- syntax highlighting react/jsx
-    use 'othree/yajs.vim'
-    use 'pangloss/vim-javascript'
-    use 'mxw/vim-jsx'
-    -- fzf
     use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
     use {'junegunn/fzf.vim'}
 
     use "ryanoasis/vim-devicons"
     use 'kyazdani42/nvim-web-devicons'    
-    
+
+    -- Syntax highlighting Tsitter
+    use 'nvim-treesitter/nvim-treesitter'
 
 end)

@@ -1,5 +1,5 @@
 require("kenanb")
--- This is running vim commands. ALlowing coc autocomplete selection with enter and font
+-- This is running vim commands. ALlowing coc autocomplete selection with enter  
 --
 
  vim.cmd([[

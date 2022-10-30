@@ -4,6 +4,7 @@ local vnoremap = require("kenanb.keymap").vnoremap
 nnoremap("<leader>pv","<cmd>Ex<CR>")
 nnoremap("<leader>ps","<C-w>v<bar> :Ex<CR>")
 nnoremap("<C-p>","<cmd>Files<CR>")
+nnoremap("<leader>pt","<cmd>ToggleTerm<CR>")
 -- nnoremap("<leader>pv","<C-w>v <bar> :Ex <bar> :vertical resize 30 <CR>")
 --
 -- Yank to clipboard when using leader

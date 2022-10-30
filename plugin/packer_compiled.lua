@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
@@ -134,25 +139,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
   },
-  ["vim-javascript"] = {
-    loaded = true,
-    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-javascript",
-    url = "https://github.com/pangloss/vim-javascript"
-  },
-  ["vim-jsx"] = {
-    loaded = true,
-    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-jsx",
-    url = "https://github.com/mxw/vim-jsx"
-  },
   ["vim-multiple-cursors"] = {
     loaded = true,
     path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-multiple-cursors",
     url = "https://github.com/terryma/vim-multiple-cursors"
-  },
-  ["yajs.vim"] = {
-    loaded = true,
-    path = "C:\\Users\\Kenan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\yajs.vim",
-    url = "https://github.com/othree/yajs.vim"
   }
 }
 
