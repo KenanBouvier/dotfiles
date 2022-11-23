@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/kenanbouvier/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["eslint.nvim"] = {
+    loaded = true,
+    path = "/Users/kenanbouvier/.local/share/nvim/site/pack/packer/start/eslint.nvim",
+    url = "https://github.com/MunifTanjim/eslint.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/kenanbouvier/.local/share/nvim/site/pack/packer/start/friendly-snippets",
