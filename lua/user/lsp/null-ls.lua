@@ -1,46 +1,22 @@
--- local null_ls_status_ok, null_ls = pcall(require, "null-ls")
--- if not null_ls_status_ok then
---   return
--- end
---
--- -- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting
--- local formatting = null_ls.builtins.formatting
--- -- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
--- local diagnostics = null_ls.builtins.diagnostics
---
--- -- https://github.com/prettier-solidity/prettier-plugin-solidity
--- null_ls.setup {
---   debug = false,
---   sources = {
---     formatting.prettier,
---     formatting.black.with { extra_args = { "--fast" } },
---     formatting.stylua,
---     formatting.google_java_format,
---     formatting.eslint_d,
---     diagnostics.flake8,
---   },
--- }
-local null_ls = require("null-ls")
-local eslint = require("eslint")
+local null_ls_status_ok, null_ls = pcall(require, "null-ls")
+if not null_ls_status_ok then
+  return
+end
 
-null_ls.setup()
+-- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting
+local formatting = null_ls.builtins.formatting
+-- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
+local diagnostics = null_ls.builtins.diagnostics
 
-eslint.setup({
-  bin = 'eslint', -- or `eslint_d`
-  code_actions = {
-    enable = true,
-    apply_on_save = {
-      enable = true,
-      types = { "directive", "problem", "suggestion", "layout" },
-    },
-    disable_rule_comment = {
-      enable = true,
-      location = "separate_line", -- or `same_line`
-    },
+-- https://github.com/prettier-solidity/prettier-plugin-solidity
+null_ls.setup {
+  debug = false,
+  sources = {
+    formatting.prettier,
+    formatting.black.with { extra_args = { "--fast" } },
+    formatting.stylua,
+    formatting.google_java_format,
+    formatting.eslint_d,
+    diagnostics.flake8,
   },
-  diagnostics = {
-    enable = true,
-    report_unused_disable_directives = false,
-    run_on = "type", -- or `save`
-  },
-})
+}

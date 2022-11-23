@@ -67,7 +67,6 @@ return packer.startup(function(use)
 
   -- FZF
   use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
-
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
