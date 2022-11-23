@@ -66,7 +66,12 @@ return packer.startup(function(use)
   use { "RRethy/vim-illuminate", commit = "a2e8476af3f3e993bb0d6477438aad3096512e42" }
 
   -- FZF
-  use {'junegunn/fzf', dir = '~/.fzf', run = './install --all' }
+  use { 'junegunn/fzf', run = ":call fzf#install()" }
+  use { 'junegunn/fzf.vim' }
+
+  -- Telescope
+  -- use {'nvim-telescope/telescope.nvim'}
+
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",

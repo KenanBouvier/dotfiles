@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/Users/kenanbouvier/.local/share/nvim/site/pack/packer/start/fzf",
     url = "https://github.com/junegunn/fzf"
   },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/Users/kenanbouvier/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/Users/kenanbouvier/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
