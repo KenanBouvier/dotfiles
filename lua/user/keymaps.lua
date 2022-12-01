@@ -21,6 +21,7 @@ vim.g.mapleader = " "
 keymap("n","<leader>pv","<cmd>Ex<CR>")
 -- Fzf
 keymap("n","<C-p>","<cmd>Files<CR>")
+keymap("n","<C-f>","<cmd>Ag<CR>")
 
 
 -- Better window navigation
