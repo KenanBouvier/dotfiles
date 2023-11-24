@@ -16,6 +16,9 @@ vim.g.maplocalleader = " "
 
 vim.keymap.set("n", "<leader>pv", "<cmd>Ex<CR>")
 
+-- LSP format
+vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
+
 -- Copy to clipboard
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])

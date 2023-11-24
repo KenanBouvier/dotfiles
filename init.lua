@@ -1,7 +1,7 @@
 require "kenan.options"
 require "kenan.keymaps"
 require "kenan.colorscheme"
-require "kenan.cmp"
+-- require "kenan.cmp"
 require "kenan.lsp"
 require "kenan.telescope"
 require "kenan.treesitter"

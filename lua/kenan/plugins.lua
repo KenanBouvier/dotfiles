@@ -20,27 +20,34 @@ return packer.startup(function(use)
     use { "folke/tokyonight.nvim"}
     use {"rose-pine/neovim"}
 
-    -- Cmp 
-    use { "hrsh7th/nvim-cmp"}
-    use { "hrsh7th/cmp-buffer"}
-    use { "hrsh7th/cmp-path"}
-    use { "saadparwaiz1/cmp_luasnip"}
-    use { "hrsh7th/cmp-nvim-lsp"}
-    use { "hrsh7th/cmp-nvim-lua"}
+    -- LSP & Cmp
 
-    -- Snippets
-    use { "L3MON4D3/LuaSnip"}
-
-    -- LSP
-    use { "neovim/nvim-lspconfig"}
-    use { "williamboman/mason.nvim"}
-    use { "williamboman/mason-lspconfig.nvim"}
-    use { "jose-elias-alvarez/null-ls.nvim"}
     use { "RRethy/vim-illuminate"}
+
+    use {
+	  'VonHeikemen/lsp-zero.nvim',
+	  branch = 'v1.x',
+	  requires = {
+		  -- LSP Support
+		  {'neovim/nvim-lspconfig'},
+		  {'williamboman/mason.nvim'},
+		  {'williamboman/mason-lspconfig.nvim'},
+
+		  -- Autocompletion
+		  {'hrsh7th/nvim-cmp'},
+		  {'hrsh7th/cmp-buffer'},
+		  {'hrsh7th/cmp-path'},
+		  {'saadparwaiz1/cmp_luasnip'},
+		  {'hrsh7th/cmp-nvim-lsp'},
+		  {'hrsh7th/cmp-nvim-lua'},
+
+		  -- Snippets
+		  {'L3MON4D3/LuaSnip'},
+	  }
+  }
 
     use { "nvim-telescope/telescope.nvim"}
     use {"nvim-treesitter/nvim-treesitter"}
-    -- <> styled tag closing
     use {"windwp/nvim-ts-autotag"}
 
 end)
