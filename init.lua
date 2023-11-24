@@ -10,7 +10,6 @@ require "kenan.comment"
 require "kenan.bufferline"
 require "kenan.lualine"
 require "kenan.impatient"
-require "kenan.whichkey"
 require "kenan.autocommands"
 
 vim.cmd(

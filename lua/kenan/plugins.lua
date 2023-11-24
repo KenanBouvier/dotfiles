@@ -15,7 +15,6 @@ return packer.startup(function(use)
     use { "moll/vim-bbye"}
     use { "nvim-lualine/lualine.nvim"}
     use { "lewis6991/impatient.nvim"}
-    use {"folke/which-key.nvim"}
 
     -- Colorschemes
     use { "folke/tokyonight.nvim"}
