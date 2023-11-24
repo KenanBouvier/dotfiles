@@ -22,4 +22,4 @@ vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
 
-vim.o.signcolumn = "number"
+vim.o.signcolumn = "yes:1"
