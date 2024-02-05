@@ -1,5 +1,6 @@
 require "kenan.options"
 require "kenan.keymaps"
+require "kenan.plugins"
 require "kenan.colorscheme"
 require "kenan.lsp"
 require "kenan.telescope"
