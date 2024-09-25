@@ -15,7 +15,7 @@ vim.cmd(
     [[
 " Set C++ file type
 autocmd BufNewFile,BufRead *.cpp set filetype=cpp
- 
+
 " Compile and run C++ program in subshell
 function! CompileAndRun()
   let fileName = expand('%')
@@ -29,9 +29,8 @@ function! CompileAndRun()
     echo 'Not a C++ file'
   endif
 endfunction
- 
+
 " Map keys to compile and run current file
 map <F5> :call CompileAndRun()<CR>
-map <F9> :w<CR>:!clear<CR>:call CompileAndRun()<CR>
     ]]
 )
